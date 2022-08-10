@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/ptf-tabulator/static/js/main.b51ee10c.js",
-    "static/media/logo.svg": "/ptf-tabulator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ptf-tabulator/index.html",
-    "main.b51ee10c.js.map": "/ptf-tabulator/static/js/main.b51ee10c.js.map"
+    "main.js": "/static/js/main.c4d6654c.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.c4d6654c.js.map": "/static/js/main.c4d6654c.js.map"
   },
   "entrypoints": [
-    "static/js/main.b51ee10c.js"
+    "static/js/main.c4d6654c.js"
   ]
 }
