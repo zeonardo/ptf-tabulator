@@ -3,7 +3,7 @@
 
   
 
-![Expected screen output](/src/assets/tablulator.png)
+![Expected screen output](https://github.com/zeonardo/ptf-tabulator/blob/master/src/assets/tabulator.png)
 
   
 
