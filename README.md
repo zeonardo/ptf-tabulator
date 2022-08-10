@@ -13,7 +13,7 @@
 1. ✅ Implement Tab and TabPane components
 2. ✅ Support uncontrolled and controlled modes in parallel
 
-## Bonus Tasks
+### Bonus Tasks
 
 1. ✅ Implement another version of *Tab* which renders each pane just once.
 2. ⚠️ Update types to prevent out-of-bound *active* / *initialActive* values (if it's technically possible)
@@ -21,7 +21,7 @@
 4. ⏳ Publish your component as an NPM library. Make sure it can be used in a TypeScript-based project.
 
 
-## Assumptions
+### Assumptions
 
 - Tabulator... is Tabs!(?)
 - Tab content can be any text or HTML
@@ -34,7 +34,7 @@ In the project directory, you can run:
 
   
 
-### `npm start` or `yarn start`
+### `yarn start` or `npm start`
 
   
 
@@ -48,13 +48,13 @@ You may also see any lint errors in the console.
 
  
 
-### `npm test` or `yarn test`
+### `yarn test` or `npm test`
 
 Launches the test runner in the interactive watch mode.
 
   
 
-### `npm run build` or `yarn build`
+### `yarn build` or `npm run build`
 
  Builds the app for production to the `build` folder.
 The build is minified and the filenames include the hashes.
