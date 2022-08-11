@@ -29,7 +29,7 @@
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
     "typescript": "^4.7.4",
-    "ztabs": "^0.1.3"
+    "ztabs": "^0.1.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
