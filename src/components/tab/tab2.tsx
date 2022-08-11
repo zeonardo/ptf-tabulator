@@ -8,17 +8,15 @@ const _renderedPanes: TypeTabPaneChild[] = []//cache constant instead of extra s
 
 const Tab2 = ({ className, children, active, initialActive, onActiveChange, ...rest }: TypeTabProps) : JSX.Element => {
 
-  const validChildren = useMemo(() => React.Children.map(children, (child) => {
-    return ((child.type as unknown as () => void).name === 'TabPane') ? child : false
-  }).filter(Boolean), [children])
+  const panes = useMemo(() => React.Children.map(children, (child) => child), [children])
 
   const [activeIndex, setActiveIndex] = useState(Math.min(
     initialActive === undefined
       ? active || 0
       : initialActive,
-    React.Children.count(validChildren) - 1))
+    panes.length - 1))
 
-  const tabTitles = validChildren.map((child) => child.props.title)
+  const tabTitles = panes.map((child) => child.props.title)
   const activePane = React.Children.toArray(children)[activeIndex] as TypeTabPaneChild
   if(!_renderedPanes[activeIndex]) _renderedPanes[activeIndex] = activePane//adds new render to cached list
 
@@ -31,8 +29,8 @@ const Tab2 = ({ className, children, active, initialActive, onActiveChange, ...r
     if(active !== undefined) setActiveIndex(active)
   },[active])
 
-  return validChildren.length ? (
-    <StyledTab className={`tab${className ? ' ' + className : ''}`} >
+  return panes.length ? (
+    <StyledTab className={`tab${className ? ' ' + className : ''}`} { ...rest }>
       <TabList tabs={tabTitles} onClick={onActiveChange || onClick} active={activeIndex} />
       {_renderedPanes.map((pane, index) => cloneElement(pane, { 
           key: `pane${index}`,

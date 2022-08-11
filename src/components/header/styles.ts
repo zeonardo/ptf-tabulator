@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import config from '../../styles/config';
+const config = require("../../styles/config").default
 
 const StyledHeader = styled.header `
   display: flex;

@@ -1,5 +1,4 @@
 import styled from "styled-components"
-// import config from "../../styles/config"
 
 const StyledTab = styled.div`
   display: flex;

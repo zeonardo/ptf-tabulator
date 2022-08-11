@@ -1,6 +1,8 @@
 import styled from "styled-components"
-import config from "../../../styles/config"
 import { TypeTabButtonProps } from "../types"
+
+const config = require("../../../styles/config").default
+console.log('>>>', config)
 
 export const TabList = styled.ul`
   list-style: none;

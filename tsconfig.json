@@ -8,6 +8,8 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "lib",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -22,5 +24,6 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts"]
 }

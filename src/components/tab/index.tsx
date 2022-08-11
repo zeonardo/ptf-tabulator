@@ -6,18 +6,16 @@ import StyledTab from "./styles";
 
 const Tab = ({ className, children, active, initialActive, onActiveChange, ...rest } : TypeTabProps) : JSX.Element => {
 
-  const validChildren = useMemo(() => React.Children.map(children, (child) => {
-    return ((child.type as unknown as () => void).name === 'TabPane') ? child : false
-  }).filter(Boolean), [children])
+  const panes = useMemo(() => React.Children.map(children, (child) => child), [children])
 
   const [activeIndex, setActiveIndex] = useState(Math.min(
     initialActive === undefined
       ? active || 0
       : initialActive,
-    React.Children.count(validChildren) - 1))
+    panes.length - 1))
   
-  const tabTitles = validChildren.map((child) => child.props.title)
-  const pane = validChildren[activeIndex]
+  const tabTitles = panes.map((child) => child.props.title)
+  const pane = panes[activeIndex]
   const activePane = cloneElement(pane, { key: `pane${activeIndex}`, index: activeIndex, active: true })
 
   const onClick = useCallback((event: React.MouseEvent<HTMLButtonElement>) => {
@@ -29,7 +27,7 @@ const Tab = ({ className, children, active, initialActive, onActiveChange, ...re
     if(active !== undefined) setActiveIndex(active)
   },[active])
 
-  return validChildren.length ? (
+  return panes.length ? (
     <StyledTab className={`tab${className ? ` ${className}` : ''}`} { ...rest }>
       <TabList tabs={tabTitles} onClick={onActiveChange || onClick} active={activeIndex} />
       {activePane}
