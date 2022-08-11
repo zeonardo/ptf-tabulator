@@ -7,6 +7,8 @@ import TabController from './components/tabController';
 import Footer from './components/footer';
 import GlobalStyle from './styles/global'
 
+const theme1 = { color: { primary: "#2ebdb7cc" }}
+const theme2 = { color: { primary: "#424b95" }}
 const App = () => {
   return (
     <>
@@ -19,7 +21,7 @@ const App = () => {
 
         <Content>
           <h2>Uncontrolled Tabulator</h2>
-          <Tab className="uncontrolled" initialActive={0}>
+          <Tab className="uncontrolled" initialActive={0} theme={theme1}>
             <Tab.Pane title="First Pane">
               <>
                 <strong>First</strong> Pane Body
@@ -41,7 +43,7 @@ const App = () => {
           <hr/>
 
           <h2>Tab2 with single render</h2>
-          <Tab2 className="uncontrolled" initialActive={2}>
+          <Tab2 className="uncontrolled" initialActive={2} theme={theme2}>
             <Tab2.Pane title="First Pane Single Render">
               <><strong>First</strong> Pane Body</>
             </Tab2.Pane>
