@@ -52,7 +52,7 @@ export default createGlobalStyle`
     width: 100%;
     padding-top: 50px;/* floating header */
     @media only screen and (min-width: ${config.breakpoint.medium.min}) {
-      height: 100vh;
+      min-height: 100vh;
     }
   }
 `
