@@ -2,8 +2,7 @@
 import Header from './components/header';
 import Logo from './components/logo';
 import Content from './components/content';
-import Tab from './components/tab';
-import Tab2 from './components/tab/tab2';
+import Tab, { Tab2 } from 'ztabs'
 import TabController from './components/tabController';
 import Footer from './components/footer';
 import GlobalStyle from './styles/global'

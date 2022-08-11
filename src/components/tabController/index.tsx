@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Tab from "../tab";
+import Tab from "ztabs";
 import StyledTabController from "./styles";
 
 interface TabControllerProps extends React.ComponentPropsWithoutRef<"div"> {
