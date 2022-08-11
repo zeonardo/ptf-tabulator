@@ -7,9 +7,9 @@
 
 ## Applications and repositories
 
-> Challenge page: [deployed ptf-tabulator](https://zeonardo.github.io/ptf-tabulator)
-> Tabulator Component lib: [ztabs on NPM](https://www.npmjs.com/package/ztabs)
-> Tabulator Component repo: [ztabs on GitHUb](https://github.com/zeonardo/ztabs)
+* Challenge page: [deployed ptf-tabulator](https://zeonardo.github.io/ptf-tabulator)
+* Tabulator Component lib: [ztabs on NPM](https://www.npmjs.com/package/ztabs)
+* Tabulator Component repo: [ztabs on GitHUb](https://github.com/zeonardo/ztabs)
 
   
 
