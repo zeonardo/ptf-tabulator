@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/ptf-tabulator/static/js/main.1c5f3105.js",
+    "main.js": "/ptf-tabulator/static/js/main.ce45d439.js",
     "static/media/logo.svg": "/ptf-tabulator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ptf-tabulator/index.html",
-    "main.1c5f3105.js.map": "/ptf-tabulator/static/js/main.1c5f3105.js.map"
+    "main.ce45d439.js.map": "/ptf-tabulator/static/js/main.ce45d439.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c5f3105.js"
+    "static/js/main.ce45d439.js"
   ]
 }
