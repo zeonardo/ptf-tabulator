@@ -30,7 +30,7 @@
 ### Extra Miles
 
 - Basic [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) with "tab key" navigation and [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles) roles
-- Basic styling with styled-components library (TODO: use ThemeProvider)
+- Basic styling with styled-components library (TODO: use ThemeProvider!)
 
 
 ### Assumptions
@@ -70,5 +70,5 @@ Launches the test runner in the interactive watch mode.
 
 ### `yarn build` or `npm run build`
 
-Builds the app for production intto the `build` folder.
+Builds the app for production into the `build` folder.
 The build is minified and the filenames include the hashes.
