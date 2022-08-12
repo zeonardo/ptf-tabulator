@@ -9254,6 +9254,6 @@ yocto-queue@^0.1.0:
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
 ztabs@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/ztabs/-/ztabs-0.1.6.tgz#85e46a99b406b8829501e541dbb730b1ed0d7ff1"
-  integrity sha512-waxgqnu8IT52lsLFVgTkvNx/dQpkeIE40rQ60S8Up9Spwfpki+kQ3Z9406Ginwy99BsqTZqS8nqqJlo/+Ypvfw==
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/ztabs/-/ztabs-0.1.7.tgz#38a0d5ea40c9b5c777082dcb91a650ff6dd65d48"
+  integrity sha512-CCkDGhbtCJo5vzSRx5hZpT1OySoNUIuCf3/RltoWKZNppI/pp7Vpd9FRyUm3axio5RgrbyurL4JAtwY8WgT2GA==
