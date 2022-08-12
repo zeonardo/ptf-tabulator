@@ -9253,7 +9253,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-ztabs@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/ztabs/-/ztabs-0.1.5.tgz#f3f03d65cd3a12a8d10ee4efbd8bc667dd615f58"
-  integrity sha512-z2+Emhqll22ZyMot2LRKWpnvOZmY+VNwe9CsRUTHsALxnEYbiShW4qAlp9mfClBO7N/14h2zs3pb5sEum2CYEA==
+ztabs@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/ztabs/-/ztabs-0.1.6.tgz#85e46a99b406b8829501e541dbb730b1ed0d7ff1"
+  integrity sha512-waxgqnu8IT52lsLFVgTkvNx/dQpkeIE40rQ60S8Up9Spwfpki+kQ3Z9406Ginwy99BsqTZqS8nqqJlo/+Ypvfw==
